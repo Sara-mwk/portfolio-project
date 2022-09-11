@@ -32,7 +32,9 @@ h2 {
 h3 {
     text-align: center;
 }
-
+.contact{
+    font-size: 25px;
+}
 .hero {
     background: var(--secondary-color);
     text-align: center;
