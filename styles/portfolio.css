@@ -10,6 +10,8 @@ font-family: 'Poppins', sans-serif; */
 }
 body {
     font-family: var(--default-font-family);
+    background: rgb(33,37,41);
+   
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -55,16 +57,24 @@ h3 {
 }
 .about-section{
     padding: 160px 20px;
+    background: rgb(33,37,41);
 }
 .about-section h1 {
 font-size: 64px;
 line-height: 80px;
+color: bisque;
 }
 .about-section h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
+    color: bisque;
+    text-align: center;
     }
-
+    .about-section p {
+        font-family: var(--default-font-family);
+        color: aliceblue;
+        }
+    
     .about-section-content {
         margin: 30px;
     }
@@ -83,10 +93,67 @@ line-height: 80px;
     color: white;
     font-size: 18px;
     line-height: 27px;
-    padding: 15px 30px  
+    padding: 15px 30px;
 }
 .project-description {
     padding: 0 5px 0;
+}
+
+.content{
+    text-align: center;
+    padding: 0;
+}
+    .content-container{
+        padding: 0;
+        background: rgb(33,37,41);
+        color: aliceblue;
+    }
+    .content h1 {
+    font-size: 64px;
+    line-height: 80px;
+    color: aliceblue;
+    }
+    .content h2 {
+        font-size: 18px;
+        font-family: var(--default-font-family);
+        color: bisque;
+        text-align: center;
+        }
+        .content h3{
+            font-size: 24px;
+            line-height: 1.5;
+            font-family: var(--default-font-family);
+            color: aliceblue;
+        }
+        .content p {
+            font-size: 14px;
+            font-family: var(--default-font-family);
+            color: aliceblue;
+            }
+        
+        .content {
+            margin: 30px;
+        }
+    .btn-branding {
+        background: var(--branding-color);
+        border-radius: 4px;
+        color: white;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px  
+    }
+    .btn-branding-outline {
+        border-radius: 4px;
+        border: 1px solid var(--branding-color);
+        background: var(--branding-color);
+        color: white;
+        font-size: 18px;
+        line-height: 27px;
+        padding: 15px 30px;
+    }
+    .project-description {
+        padding: 0 5px 0;
+
 }
 @media (max-width: 900px) {
     .projext-description {
@@ -114,3 +181,4 @@ line-height: 80px;
 .row {
     margin-bottom: 10%;
 }
+
