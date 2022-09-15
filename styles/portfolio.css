@@ -13,7 +13,7 @@ body {
     background: rgb(33,37,41);
    
 }
-
+ 
 h1, h2, h3, h4, h5, h6 {
     color:black;
     font-family: var(--heading-font-family);
@@ -38,7 +38,7 @@ h3 {
     font-size: 25px;
 }
 .hero {
-    background: var(--secondary-color);
+    background: rgb(76, 80, 84);;
     text-align: center;
     padding: 160px 20px;
 }
@@ -47,6 +47,7 @@ h3 {
     font-size: 36px;  
     font-weight: bold;
     margin: 0;
+    color: #F9F7FE;
 }
 .hero h2 {
     font-family: var(--heading-font-family);
@@ -155,6 +156,39 @@ color: bisque;
         padding: 0 5px 0;
 
 }
+
+.logo {
+    max-width: 150px;
+    color: white;
+}
+nav {
+    padding: 20px 0;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 20px;
+}
+
+nav a {
+text-decoration: none;
+color: #F9F7FE;
+transition: all 100ms ease-in-out;
+}
+
+
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
+   
+}
+
 @media (max-width: 900px) {
     .projext-description {
         padding: 0;
