@@ -38,7 +38,7 @@ h3 {
     font-size: 25px;
 }
 .hero {
-    background: rgb(76, 80, 84);;
+    background: rgb(47, 50, 53);;
     text-align: center;
     padding: 160px 20px;
 }
@@ -188,6 +188,37 @@ nav li.active a {
     color: var(--branding-color);
    
 }
+
+footer {
+    margin: 60px 0;
+}
+
+footer .email-links {
+     text-decoration: none;
+     color: white;
+     font-size: 30px;
+     text-align: center;
+} 
+
+footer .email-links:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background:  var(--secondary-color);
+    border-radius: 50%;
+    padding: 10px 14px;
+    font-size: 20px;
+    transition: all 150ms easy-in-out;
+}
+
+footer .social-links a:hover {
+    color:antiquewhite;
+    background: var(--branding-color);
+}
+
 
 @media (max-width: 900px) {
     .projext-description {
